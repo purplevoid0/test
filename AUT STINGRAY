@@ -1,0 +1,8 @@
+getgenv().Webhook = "Paste your webhook link here" -- Replace this with your Discord webhook, now will also send trait relevant messages
+getgenv().DodgeOffset = 400
+getgenv().NoRender = 0 -- Turn off 3d rendering
+getgenv().NoBearer = 0 -- Makes finger farm into simple level farm
+getgenv().OneShotTime = 205
+getgenv().AutoSkills = {"E","R","Y"}
+getgenv().AutoAscend = 0 -- only enable this if you want to automatically ascend when you reach level 200, added auto trait picking
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebula-Manta/StingrayCracker/refs/heads/main/FingerFarm"))()
