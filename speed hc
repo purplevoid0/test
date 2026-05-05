@@ -1,0 +1,207 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+ 
+TDS:Loadout("Gatling Gun", "Tesla", "DJ Booth", "Military Base", "Ace Pilot")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Unknown Garden", {})
+ 
+TDS:Ready()
+ 
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Ace Pilot", -32.642056, 1.024269, -2.514281)
+TDS:Ability(1, "Toggle Reverse")
+ 
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Upgrade(1)
+ 
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+ 
+-- [ Wave 4 ] --
+TDS:VoteSkip(4)
+TDS:Upgrade(1)
+ 
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+ 
+-- [ Wave 6 ] --
+TDS:Place("Military Base", -15.514587, 1.018684, 14.261355)
+TDS:VoteSkip(6)
+TDS:Upgrade(2)
+ 
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+TDS:Upgrade(2)
+ 
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+ 
+-- [ Wave 9 ] --
+TDS:VoteSkip(9)
+ 
+-- [ Wave 10 ] --
+TDS:VoteSkip(10)
+TDS:Upgrade(2)
+ 
+-- [ Wave 11 ] --
+TDS:Place("Ace Pilot", -32.538273, 1.024269, 0.555555)
+TDS:Ability(3, "Toggle Reverse")
+TDS:Upgrade(3)
+ 
+-- [ Wave 12 ] --
+TDS:VoteSkip(12)
+TDS:Upgrade(3)
+ 
+-- [ Wave 13 ] --
+TDS:Place("Military Base", -15.654762, 1.018684, 18.76042)
+TDS:Upgrade(4)
+TDS:VoteSkip(13)
+TDS:Upgrade(4)
+ 
+-- [ Wave 15 ] --
+TDS:Upgrade(4)
+ 
+-- [ Wave 18 ] --
+TDS:Place("Tesla", -32.441288, 1.02427, -6.448822)
+ 
+-- [ Wave 21 ] --
+TDS:Place("Gatling Gun", -6.538115, 1.018693, 5.279354)
+ 
+-- [ Wave 22 ] --
+TDS:Upgrade(6)
+ 
+-- [ Wave 24 ] --
+TDS:Place("DJ Booth", -2.739053, 1.018684, 9.925168)
+TDS:SetOption(7, "Track", "Green")
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+ 
+-- [ Wave 25 ] --
+TDS:Upgrade(5)
+ 
+-- [ Wave 26 ] --
+TDS:Upgrade(6)
+ 
+-- [ Wave 29 ] --
+TDS:Upgrade(5)
+ 
+-- [ Wave 30 ] --
+TDS:Place("Tesla", -2.365703, 1.018684, 15.88266)
+ 
+-- [ Wave 31 ] --
+TDS:Upgrade(6)
+TDS:VoteSkip(31)
+ 
+-- [ Wave 32 ] --
+TDS:Upgrade(7)
+ 
+-- [ Wave 33 ] --
+TDS:VoteSkip(33)
+ 
+-- [ Wave 34 ] --
+TDS:Upgrade(7)
+ 
+-- [ Wave 36 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+ 
+-- [ Wave 38 ] --
+TDS:Upgrade(8)
+ 
+-- [ Wave 39 ] --
+TDS:Upgrade(5)
+ 
+-- [ Wave 41 ] --
+TDS:Upgrade(5)
+ 
+-- [ Wave 43 ] --
+TDS:Upgrade(6)
+ 
+-- [ Wave 44 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+ 
+-- [ Wave 45 ] --
+TDS:Sell(3)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Military Base", -8.903276, 1.018684, 20.892569)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Military Base", 3.99992, 1.018684, 20.621059)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+ 
+-- [ Wave 46 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Military Base", 5.013924, 1.018691, -1.024405)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Ace Pilot", -6.392323, 1.018684, 15.052885)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Ace Pilot", 33.745712, 1.049993, -13.692242)
+TDS:Ability(13, "Toggle Reverse")
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+ 
+-- [ Wave 47 ] --
+TDS:Place("Ace Pilot", -32.662056, 1.024269, 0.868533)
+TDS:Ability(14, "Toggle Reverse")
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Ace Pilot", -36.215824, 1.02427, -2.923542)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Ability(15, "Toggle Reverse")
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Ace Pilot", -29.277515, 1.024269, -1.981766)
+TDS:Ability(16, "Toggle Reverse")
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Ace Pilot", -35.928726, 1.024269, 2.110622)
+TDS:Ability(17, "Toggle Reverse")
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Ace Pilot", -29.450321, 1.024269, 2.023443)
+TDS:Ability(18, "Toggle Reverse")
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:SetOption(7, "Track", "Red")
+ 
